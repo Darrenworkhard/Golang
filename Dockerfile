@@ -16,9 +16,9 @@ WORKDIR /app
 
 ## Our start command which kicks off
 ## our newly created binary executable
-RUN go build -o  hello .
+RUN go build -o ApiService .
 
-CMD ["/app/hello"]
+CMD ["/app/ApiService"]
 
 #WORK 
 # FROM golang:1.14
